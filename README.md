@@ -18,8 +18,8 @@
 2. Запустите контейнеры через Docker Compose:
 
 ```bash
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 4. API будет доступно по адресам:
