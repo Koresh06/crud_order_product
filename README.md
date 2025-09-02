@@ -21,6 +21,11 @@
 docker compose build
 docker compose up -d
 ```
+3. Примените миграции для обеих версий:
+```bash
+docker compose exec app_v1 alembic upgrade head 
+docker compose exec app_v2 alembic upgrade head
+```
 
 4. API будет доступно по адресам:
 
